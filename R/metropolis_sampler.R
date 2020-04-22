@@ -9,7 +9,6 @@
 #' @param burnin Number of iterations that will be discarded
 #'
 #' @export
-
 metropolis_sampler <- 
 function(startVals, y, X, iter, burnin) {
     reject <- 0

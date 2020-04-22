@@ -14,5 +14,5 @@ postdist(w, y, X)
 \item{X}{Covariates}
 }
 \description{
-postdist
+A slightly longer descrip
 }

@@ -14,5 +14,5 @@ SE_kernel(X, lengthScale, sigma_f)
 \item{sigma_f}{Some kind of noise}
 }
 \description{
-SE_kernel
+A slightly longer description
 }
