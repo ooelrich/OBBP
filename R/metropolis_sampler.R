@@ -2,9 +2,10 @@
 #'
 #' This function implements a simple Metropolis MCMC algorithm.
 #'
+#' @param dist Distribution to draw from
+#' @param dist_args List of arguments needed for the posterior, in this
+#' case it should be list(y = responde, x = covariates, length_scale, sigma_f, tau2)
 #' @param start_vals Starting values for the parameters
-#' @param y Response variable
-#' @param x Matrix of covariates
 #' @param iter Number of iterations the sampler will run
 #' @param burnin Number of iterations that will be discarded
 #'

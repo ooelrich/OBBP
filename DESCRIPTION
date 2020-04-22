@@ -1,11 +1,11 @@
 Package: OBBP
 Type: Package
-Title: Functions used in the assigments for Mattias Villanis BigBayes course
+Title: Oscar's BigBayes Package
 Version: 1.0
 Date: 2020-04-21
 Author: Oscar Oelrich
 Maintainer: Oscar Oelrich <oscar.oelrich@stat.su.se>
-Description: More about what it does (maybe more than one line)
+Description: Functions used in the assigments for Mattias Villanis BigBayes course. 
 Imports:
     MASS,
     stats

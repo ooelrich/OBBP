@@ -7,15 +7,16 @@
 metropolis_sampler(dist, dist_args, start_vals, iter, burnin)
 }
 \arguments{
+\item{dist}{Distribution to draw from}
+
+\item{dist_args}{List of arguments needed for the posterior, in this
+case it should be list(y = responde, x = covariates, length_scale, sigma_f, tau2)}
+
 \item{start_vals}{Starting values for the parameters}
 
 \item{iter}{Number of iterations the sampler will run}
 
 \item{burnin}{Number of iterations that will be discarded}
-
-\item{y}{Response variable}
-
-\item{x}{Matrix of covariates}
 }
 \description{
 This function implements a simple Metropolis MCMC algorithm.

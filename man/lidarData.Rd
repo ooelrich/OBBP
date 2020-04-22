@@ -3,7 +3,7 @@
 \docType{data}
 \name{lidarData}
 \alias{lidarData}
-\title{Arabidopsis QTL data on gravitropism}
+\title{LIDAR data}
 \format{
 An object of class \code{data.frame} with 221 rows and 2 columns.
 }
@@ -11,6 +11,6 @@ An object of class \code{data.frame} with 221 rows and 2 columns.
 lidarData
 }
 \description{
-Arabidopsis QTL data on gravitropism
+LIDAR data for use with exercise 1 and 3 in the first lab.
 }
 \keyword{datasets}
