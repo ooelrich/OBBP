@@ -21,8 +21,7 @@ metropolis_sampler <- function(dist, dist_args, start_vals, iter, burnin) {
                         matrix(c(0.3, -0.1, -0.1, 0.3),
                         nrow = 2))
         lr <- dist(prop, dist_args) - dist(theta[i - 1, ], dist_args)
-
-        if(lr > log(stats::runif(1))) {
+        if (lr > log(stats::runif(1))) {
             theta[i, ] <- prop
         }
         else{

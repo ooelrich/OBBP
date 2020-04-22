@@ -19,7 +19,7 @@ se_kern <- function(x_1, x_2, length_scale, sigma_f) {
 
     for (i in seq_len(nrow(x_1))) {
         for (j in seq_len(nrow(x_2))) {
-            kern[i, j] <- sigma_f * exp(-sum((x_1[i, ] - x_2[j, 2])^2) / 
+            kern[i, j] <- sigma_f * exp(-sum((x_1[i, ] - x_2[j, ])^2) /
                             (2 * length_scale))
         }
     }
