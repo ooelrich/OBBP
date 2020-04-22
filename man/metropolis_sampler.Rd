@@ -2,21 +2,21 @@
 % Please edit documentation in R/metropolis_sampler.R
 \name{metropolis_sampler}
 \alias{metropolis_sampler}
-\title{metropolis_sampler}
+\title{Metropolis MC sampler}
 \usage{
-metropolis_sampler(startVals, y, X, tau2, iter, burnin)
+metropolis_sampler(dist, dist_args, start_vals, iter, burnin)
 }
 \arguments{
-\item{startVals}{Starting values for the parameters}
-
-\item{y}{Response variable}
-
-\item{X}{matrix of covariates}
+\item{start_vals}{Starting values for the parameters}
 
 \item{iter}{Number of iterations the sampler will run}
 
 \item{burnin}{Number of iterations that will be discarded}
+
+\item{y}{Response variable}
+
+\item{x}{Matrix of covariates}
 }
 \description{
-This function implements a simple Metropolis MC function
+This function implements a simple Metropolis MCMC algorithm.
 }

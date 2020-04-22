@@ -6,6 +6,9 @@ Date: 2020-04-21
 Author: Oscar Oelrich
 Maintainer: Oscar Oelrich <oscar.oelrich@stat.su.se>
 Description: More about what it does (maybe more than one line)
+Imports:
+    MASS,
+    stats
 License: Do what thou wilt shall be the whole of the law
 Encoding: UTF-8
 LazyData: true
