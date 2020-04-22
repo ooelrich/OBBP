@@ -1,4 +1,4 @@
-#' Squared exponential kernel
+#' SE_kernel
 #' 
 #' @param X The design matrix
 #' @param lengthScale The length scale

@@ -2,7 +2,7 @@
 % Please edit documentation in R/SE_kernel.R
 \name{SE_kernel}
 \alias{SE_kernel}
-\title{Squared exponential kernel}
+\title{SE_kernel}
 \usage{
 SE_kernel(X, lengthScale, sigma_f)
 }
@@ -14,5 +14,5 @@ SE_kernel(X, lengthScale, sigma_f)
 \item{sigma_f}{Some kind of noise}
 }
 \description{
-Squared exponential kernel
+SE_kernel
 }

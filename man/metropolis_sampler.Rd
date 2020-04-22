@@ -2,7 +2,7 @@
 % Please edit documentation in R/metropolis_sampler.R
 \name{metropolis_sampler}
 \alias{metropolis_sampler}
-\title{A Metropolis sampler}
+\title{metropolis_sampler}
 \usage{
 metropolis_sampler(startVals, y, X, iter, burnin)
 }

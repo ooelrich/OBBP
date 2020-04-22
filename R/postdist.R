@@ -1,4 +1,4 @@
-#' Posterior distrbution
+#' postdist
 #' 
 #' @param w values of the paramaters
 #' @param y Response variable

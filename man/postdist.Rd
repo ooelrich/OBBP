@@ -2,7 +2,7 @@
 % Please edit documentation in R/postdist.R
 \name{postdist}
 \alias{postdist}
-\title{Posterior distrbution}
+\title{postdist}
 \usage{
 postdist(w, y, X)
 }
@@ -14,5 +14,5 @@ postdist(w, y, X)
 \item{X}{Covariates}
 }
 \description{
-Posterior distrbution
+postdist
 }

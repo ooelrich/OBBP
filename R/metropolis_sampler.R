@@ -1,4 +1,4 @@
-#' A Metropolis sampler
+#' metropolis_sampler
 #'
 #' This function implements a simple Metropolis MC function
 #'
