@@ -3,6 +3,8 @@
 #' @param X The design matrix
 #' @param lengthScale The length scale
 #' @param sigma_f Some kind of noise
+#' 
+#' @export
 
 SE_kernel <- function(X, lengthScale, sigma_f){
     K <- matrix(NA, nrow = nrow(X), ncol = nrow(X))
