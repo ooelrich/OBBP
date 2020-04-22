@@ -10,7 +10,8 @@
 #'
 #' @export
 
-metropolis_sampler <- function(startVals, y, X, iter, burnin) {
+metropolis_sampler <- 
+function(startVals, y, X, iter, burnin) {
     reject <- 0
     theta <- matrix(NA, ncol = 2, nrow = iter)
     theta[1, ] <- startVals
