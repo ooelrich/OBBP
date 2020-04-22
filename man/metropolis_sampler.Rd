@@ -4,7 +4,7 @@
 \alias{metropolis_sampler}
 \title{metropolis_sampler}
 \usage{
-metropolis_sampler(startVals, y, X, iter, burnin)
+metropolis_sampler(startVals, y, X, tau2, iter, burnin)
 }
 \arguments{
 \item{startVals}{Starting values for the parameters}

@@ -4,7 +4,7 @@
 \alias{postdist}
 \title{postdist}
 \usage{
-postdist(w, y, X)
+postdist(w, y, X, tau2)
 }
 \arguments{
 \item{w}{values of the paramaters}

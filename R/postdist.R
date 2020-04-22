@@ -8,7 +8,7 @@
 #' 
 #' @export
 postdist <- 
-function(w, y, X){
+function(w, y, X, tau2){
     L <- chol(K + diag(as.vector(exp(t(w) %*% t(X)))))
     logDet <- 2*sum(log(diag(L)))
     likelihood <- -0.5 * logDet - 
