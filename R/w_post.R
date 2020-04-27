@@ -22,6 +22,6 @@ w_post <- function(w, dist_args) {
 
     post_density <- -0.5 * log_det -
         0.5 * t(y) %*% solve(l) %*% solve(t(l)) %*% y -
-        t(w) %*% w / (2 * tau2)
+        t(w) %*% w / (2 * tau2) - 0.5 * log(tau2)
     return(post_density)
 }
